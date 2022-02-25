@@ -1,6 +1,7 @@
 
 "use strict";
 // Calculate the total cost of course modules
+// global varaibles declared
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.close-modal');
@@ -26,6 +27,8 @@ document.querySelector('.module').addEventListener('click',
     let y = (modulePrice * modules)
     document.querySelector('.price').textContent= '$'+y.toFixed(2)};
 });
+
+//The pop up click function that opens on click displays content
 const openModal = function () {
   modal.classList.remove('hidden');
   overlay.classList.remove('hidden');
@@ -36,7 +39,7 @@ const closeModal = function () {
   overlay.classList.add('hidden');
 };
 
-// for (let i = 0; i < btnsOpenModal.length; i++)
+
   btnsOpenModal[0].addEventListener('click', openModal);
 
 btnCloseModal.addEventListener('click', closeModal);

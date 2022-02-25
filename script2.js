@@ -95,17 +95,7 @@ function validateEmail() {
    var errorDiv = document.getElementById("emailError");
    var emailCheck = /^[_\w\-]+(\.[_\w\-]+)*@[\w\-]+(\.[\w\-]+)*(\.[\D]{2,6})$/;
    try {
-	   // if (emailInput.value.search(/@/) === -1 ||
-	   // emailInput.value.lastIndexOf(".") === -1){
-		    // if ((/@/.test(emailInput.value) === false) || (
-			// (/\...$/.test(emailInput.value) === false) && (
-			// \....$/.test(emailInput.value) === false) &&(
-			// /\.....$/.test(emailInput.value) === false) && {
-			// /\.......$/.test(emailInput.value) === false) 
-			// }
-			// ){
-			//	if ((/@/.test(emailInput.value) === false) || (
-			//	/\..{2,6}$/.test(emailInput.value) === false)) {
+	   
 				if (emailCheck.test(emailInput.value) === false) {
 		 throw "Please provide a valid email address";
 	   }
