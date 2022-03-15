@@ -1,14 +1,3 @@
-/*    JavaScript 6th Edition
- *    Chapter 8
- *    Chapter case
-
- *    Golden Rocks National Park 
- *    Author: 
- *    Date:   
-
- *    Filename: styles.js
- */
-
 "use strict";
 
 // global variables

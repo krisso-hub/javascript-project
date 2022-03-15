@@ -27,18 +27,6 @@ body { background-color: #EFFFFF;
 	line-height: 1.3em;
 }
 
-/* Style the links inside the navigation bar 
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  border-bottom: 3px solid transparent;
-}*/
-
 .topnav a:hover {
   border-bottom: 3px solid red;
 }
@@ -47,7 +35,6 @@ body { background-color: #EFFFFF;
   border-bottom: 3px solid red;
 }
 	
-
 h1 {
    font-size: 40px;
    padding-bottom: 20px;
@@ -69,11 +56,38 @@ h2 {
   color: inherit;
   font-size: 2rem;
   padding: 2.5rem;
-  width: 25rem;
+  width: 30rem;
   text-align: center;
   
   margin-bottom: 3rem;
 }
+.top2{
+	background: yellowgreen;
+ 
+  font-family: inherit;
+  color: inherit;
+  font-size: 2rem;
+  padding: 2.5rem;
+  width: 35rem;
+  text-align: center;
+  
+  margin-bottom: 3rem;
+}
+
+.input-contrl{
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-top: 25px;
+ }
+
+ .input-control{
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-top: 25px;
+  left: 4rem;
+  width: 25rem;
+  background: yellowgreen;
+  }
 
 .right{
   
@@ -90,6 +104,16 @@ h2 {
   width: 25rem;
   text-align: center;
 }
+.image2{
+  background: yellowgreen;
+  font-size: 2rem;
+  position: absolute;
+  top: 16rem;
+  right: 4rem;
+  
+  
+}
+
 
 img{margin-top: 30px;
 	width: 550px;

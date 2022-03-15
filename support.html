@@ -1,27 +1,63 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Kritec Academy</title>
-<meta charset="utf-8">
-
-</head>
-<body>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Kritec Academy - Learning Institution</title>
+   <link rel="stylesheet" href="style.css" /> 
+  </head>
+  <body>
  <header>
    <h1>Kritec Academy</h1>
  </header>
-   <nav>
- <b><a href="index.html">Home</a> &nbsp; 
- <a href="explore.html">Explore</a>&nbsp; 
- <a href="support.html">Support</a> &nbsp;
- <a href="answer.html">Answers</a></b>
- </nav>
+  <div class="topnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="explore.html">Explore</a>
+  <a href="answer.html">Answer</a>
+  <a href="support.html">Support</a>
+</div> 
+<div class ="image2">
+ <img id="image" src="images/img_04.jpg" alt="sch"/>
+  </div>
  <main>
-   <h2>Enjoy Leraning</h2>
-  <p>hi <br> hi</p>
-   <ul>
-     <li>learning</li>
-     >
-   </ul>
-   
- </main>
- <div>
+   <h2>Support Center</h2>
+  <p class="first"> Frequently asked questions<br>
+  How do get started<br>
+  Can I access content while offline<br>
+  What happens if i miss a live event<br>
+  Is there a free trial</p>
+ </div>
+<div class="input-contrl">
+   <label for="response"> Preferred Method of Contact</label><br>
+   <input type="radio" name="contact" id="text">Text Message<br>
+   <input type="radio" name="contact" id="phone">Phone Call<br>
+   <input type="radio" name="contact" id="voice">Voice Message<br>
+   <input type="radio" name="contact" id="email">Email Message<br>
+</div>
+<div class="input-control">
+   <label for="messageInput"> Message</label>
+   <textarea id ="messageInput" name="messageInput" cols="30" rows="10" placeholder="Enter Your Message" required="required"></textarea>
+   <div class="error"></div>
+</div>   
+<button type="submit" class="btn">Send Message</button>
+</form>
+</div>
+  <div class="list">
+   <ul><h2>Academics</h2>
+     <li>Our Training is notable for rigorious curriclum</li>
+	 <li>We have close collaboration with other Institutions</li>
+	 <li>Our students are prepared to be world class leaders in different fields</li>
+   <li>Our students leads in science, engineering and public service</li>
+    </ul>  
+	</main>
+ 
+<footer><small><i>Copyright &copy; 2022 Kritec Academy</i></small></footer>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
